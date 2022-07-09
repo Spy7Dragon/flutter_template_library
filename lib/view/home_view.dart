@@ -4,6 +4,8 @@ import 'package:flutter_template_library/view_model/main_view_model.dart';
 import 'package:provider/provider.dart';
 
 class HomeView extends StatefulWidget {
+  const HomeView({Key? key}) : super(key: key);
+
   @override
   HomeState createState() => HomeState();
 }
